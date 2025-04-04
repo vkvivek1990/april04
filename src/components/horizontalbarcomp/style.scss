@@ -1,0 +1,43 @@
+.horizontalbar_comp_container{
+    width: 100%;
+    padding: 10px;
+    zoom:82%;
+    .horizontalbar_comp_holder{
+        padding: 0px;
+        margin: 0px;
+        margin-left: 40px;
+        border-left: 2px solid #ccc;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 9px;
+        li.horizbar {
+            list-style-type: none;
+            margin-bottom: 14px;
+            width: 100%;
+            position: relative;
+            .horizbar_wrraper{
+                width: 100%;
+                span.horizbar_inc_holder {
+                    position: absolute;
+                    left: -30px;
+                    top: 0px;
+                    text-align: center;
+                    background: #97caf6;
+                    border-radius: 50%;
+                    width: 22px;
+                    height: 22px;
+                    .horzi_icn {
+                        font-size: 14px;
+                        margin-top: 4px;
+                    }
+                }
+                span.horzibar_items {
+                    display: inline-block;
+                    width: 15%;
+                    text-align: center;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

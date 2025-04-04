@@ -1,0 +1,83 @@
+{
+  "name": "waterdemo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-env": "7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "alasql": "^1.7.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-daterangepicker": "^3.1.0",
+    "concurrently": "^6.0.1",
+    "excel": "^1.0.1",
+    "flatpickr": "^4.6.9",
+    "jquery": "^3.6.0",
+    "lodash.isequal": "^4.5.0",
+    "material-icons": "^0.5.3",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^1.5.2",
+    "react-bootstrap-daterangepicker": "^7.0.0",
+    "react-datepicker": "^3.7.0",
+    "react-dom": "^17.0.1",
+    "react-excel-renderer": "^1.1.0",
+    "react-loader": "^2.4.7",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-select": "^4.3.0",
+    "react-table": "^7.0.4",
+    "react-test-renderer": "^17.0.1",
+    "react-tooltip": "^4.2.18",
+    "reactstrap": "^8.4.1",
+    "read-excel-file": "^5.0.0",
+    "recharts": "^2.0.8",
+    "redux": "^4.0.5",
+    "redux-form": "8.2.6",
+    "redux-thunk": "^2.1.0",
+    "renderer": "^0.1.5",
+    "sass": "^1.41.1",
+    "shallow": "^1.0.0",
+    "web-vitals": "^1.1.0",
+    "webpack": "4.44.2"
+  },
+  "scripts": {
+    "ui": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "proxy": "nodemon mocks/server",
+    "dev": "concurrently 'npm:ui' 'npm:proxy'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tsconfig/create-react-app": "^2.0.5"
+  }
+}

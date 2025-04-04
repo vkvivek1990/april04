@@ -1,0 +1,53 @@
+.preview_card{
+    padding: 5px;
+    background: #007bff;
+    margin-bottom: 10px;
+    border-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    cursor: pointer;
+    .card-header {
+        background: transparent;
+        border: none;
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .collapse{
+        background: #fff;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        .card-body{
+            .btn_whole_holder{
+                button{
+                    float: right;
+                    color: #007bff;
+                    margin: 0px;
+                }
+                &:after{
+                    content: "";
+                    display: block;
+                    clear: both;
+                }
+            }
+            .filed_dtls_holder {
+                margin-bottom: 30px;
+                .material-icons{
+                    font-size: 26px;
+                    margin-right: 5px;
+                }
+                .field_title{
+                    font-size: 12px;
+                }
+                span.field_val {
+                    display: block;
+                }
+            }
+        }
+        &.show{
+            background: #fff;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+    }
+}

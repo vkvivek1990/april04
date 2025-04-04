@@ -1,0 +1,107 @@
+.Header_container{
+    background-color: #98db08;
+    height: auto;
+    padding: 10px 30px 6px 15px;
+    //position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 1px 1px 6px 2px #00000091;
+ .img_plus_drp_holder{
+     width: 100%;
+     .img_holder{
+        width: 15%;
+        display: inline-block;
+        border: 1px solid white;
+        padding: 20px;
+        vertical-align: middle;
+     }
+     .whole_drp_holders{
+        display: inline-block;
+        width: 85%;
+        text-align: center;
+        vertical-align: middle;
+         .Group_list_holder,.Role_list_holder,.Catagory_list_holder{
+            width: 25%;
+            display: inline-block;
+            margin-left: 10px;
+         }
+     }
+ }
+ .menu_holder{
+    border-right: 1px solid #fff;
+    .Menu_container{
+        text-align: right;
+        .Menu_holder{
+            padding: 0px;
+            margin: 0px;
+            li.Menu_list {
+                display: inline-block;
+                margin-right: 15px;
+                text-align: center;
+                .Menu_item_holder{
+                    display: block;
+                    color: #000;
+                    text-align: center;
+                    background: #fff;
+                    border-radius: 50%;
+                    width: 37px;
+                    margin: 0 auto;
+                    height: 37px;
+                    .Menu_icon{
+                        font-size: 22px;
+                        margin-top: 8px;
+                    }
+                }
+                .Menu_item_txt{
+                    color:#fff;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+  }
+  .user_dtls_box{
+      padding-left: 0px;
+  .user_details{
+      display: inline-block;
+    span.user_dtls_id,span.user_dtls_name {
+        display: block;
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 5px;
+    }
+  }
+  .Log_out_container{
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 20px;
+    span.conclr {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 5px;
+        span.material-icons{
+            color: #fff;
+        }
+    }
+    span.Log_out_btn {
+        display: inline-block;
+        font-size: 12px;
+        color: #fff;
+        vertical-align: middle;
+    }
+    span.user_dtls_name {
+        display: block;
+        font-size: 10px;
+        color: #fff;
+        padding-bottom: 5px;
+    }
+}
+}
+  .userinfo_container{
+      text-align: left;
+      .useraction_holder,.user_info_box{
+          display: inline-block;
+          border-right: 1px solid #fff;
+      }
+  }
+}

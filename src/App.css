@@ -1,0 +1,504 @@
+/* .App {
+  background-color: #1d488c;
+  padding: 22px;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#app {
+  background: #1d488c;
+}
+
+.regBackground {
+  background-color: #efefef;
+  background-image: linear-gradient(to top left, #efefef, #ffffff);
+  height: auto;
+  padding: 72px 30px 6px 15px;
+}
+
+.regBackground .btn {
+  width: 327px;
+  background: #f4f7fc;
+  height: 50px;
+  text-align: center;
+  padding: 12px;
+  color: #30478a;
+  display: inline-block;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+h3.title {
+  color: #00326d;
+  padding: 10px 0px 0px 0px;
+  text-align: left;
+  font-size: 22px;
+}
+
+hr {
+  color: #fff !important;
+  background: #fcfdff !important;
+}
+
+.service_err_box {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.service_err_txt {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.userTypeBg {
+  background: #eee;
+  /* width: 1078px; */
+  margin: 0 auto !important;
+  padding: 10px 0px 0px 0px;
+  /* height: 102px; */
+  color: #fff;
+  zoom: 90%;
+}
+span.typeGrid > .btn {
+  background: #fff;
+  color: #349727;
+  height: 54px;
+  display: inline-block;
+  width: 230px;
+  border: none;
+}
+.serviceImgGrid >.typeGrid > label {
+  text-align: left;    
+}
+span.typeGrid > .btn:hover {
+  background: #0062cc;
+  color: #fff;
+}
+span.typeGrid > .btn:active {
+  background: #0069d9;
+  color: #fff;
+}
+span.typeGrid > .btn:checked {
+  background: #fae;
+}
+.typeCheck {
+  display: none;
+}
+.serviceImgGrid {
+  /* width: calc(100% / 15); */
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+}
+.serviceImgGrid .service_title {
+  font-size: 14px;
+  margin-top: -38px;
+  margin-bottom: 24px;
+  color: #00326d;
+}
+/* .serviceImgGrid.current:after {
+  content: " v";
+  display: block;
+  border-top: 4px solid #fff;
+  top: 8px;
+  position: relative;
+  line-height: 6px;
+  font-size: 25px;
+} */
+
+.serviceImgGrid.false.completed:after {
+  content: " ✓";
+  display: block;
+  position: relative;
+  right: -44px;
+  top: -77px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2ebb1b;
+  pointer-events: none;
+}
+/* .serviceImgGrid.current.completed:before {
+  content: " ✓";
+  display: block;
+  position: relative;
+  right: -44px;
+  top: -77px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #2ebb1b;
+  pointer-events: none;
+} */
+input.input {
+  background: #fff;
+  border: none;
+  height: 35px;
+}
+
+.reg input {
+  height: 35px;
+  font-size: 12px;
+}
+span.input-group-addon.iconclr {
+  background: #349727;
+
+  color: #fff;
+}
+
+.btn.nextBtn {
+  width: auto;
+  padding: 0px 20px 0px 20px;
+  color: #fff;
+  font-weight: bold;
+  background: #349727;
+  display: inline-block;
+  margin: 15px 0px 10px 12px;
+  text-align: center;
+  height: 36px;
+  border-radius: 0;
+}
+.nextServiceBtn {
+  text-align: right;
+}
+label.btn.checked {
+  background: #349727;
+  color: #fff;
+}
+label.btn.active[disabled] {
+  background: #fff !important;
+  color: #349727 !important;
+}
+
+label.btn[disabled] {
+  cursor: not-allowed !important;
+}
+
+button.btn.active {
+  background: #349727;
+  color: #fff;
+  pointer-events: none;
+}
+button.btn.active[disabled] {
+  background: #349727 !important;
+  color: #fff;
+}
+
+.serviceImgGrid .btn.active {
+  background: #349727 !important;
+  color: #fff !important;
+}
+.fieldStyle .input-group {
+  margin: 0px 0px 16px 0px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+label.custom-file-label {
+  text-align: left;
+  height: 40px;
+  padding-top: 8px;
+}
+.custom-file-label::after {
+  padding: 0px;
+}
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: "Attach";
+  padding: 8px;
+  height: 39px;
+  border: none;
+  background: #b4ffba;
+}
+.custom-file {
+  height: 40px;
+}
+
+.rowReg .row {
+  margin: 0;
+}
+
+/* button#details:after {
+  content: "";
+  position: absolute;
+  border-color: transparent transparent transparent #349727;
+  border-style: solid;
+  border-width: 25px 0px 25px 25px;
+  left: 93%;
+  top: 0;
+}
+button#service:after {
+  content: "";
+  position: absolute;
+  border-color: transparent transparent transparent #349727;
+  border-style: solid;
+  border-width: 25px 0px 25px 25px;
+  left: 93%;
+  top: 0;
+} */
+.splitField:nth-child(even) {
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+/* checkbox Style*/
+.checkGroup .btn {
+  background: #babcbc;
+  width: 35px;
+  margin: 2px 5px 2px 0px;
+  height: 30px;
+  padding: 5px 0px 0px 0px;
+}
+
+.checkGroup .btn .active {
+  background: #123;
+}
+
+.checkGroup .btn .glyphicon {
+  top: -2px;
+}
+
+.checkGroup {
+  background: #fff;
+  width: 90%;
+  display: inline-block;
+  height: 35px;
+  font-size: 12px;
+}
+select.checkGroup {
+  height: 35px;
+  font-size: 12px;
+  width: 90%;
+}
+.iconclr.required {
+  background: #d1281c !important;
+}
+.input-group h4 {
+  color: #fff;
+  text-align: center;
+}
+.custom-checkbox {
+  text-align: left;
+  color: #fff;
+}
+
+/*  Preview forms Css */
+
+.cardWrapper {
+  background: 2d4974bf;
+  min-height: 400px;
+}
+
+.img {
+  width: 140px;
+  height: 175px;
+  background: yellow;
+  display: inline-block;
+}
+
+.personalDetails {
+  min-height: 175px;
+  display: inline-block;
+  width: 100%;
+}
+
+.contactDetails {
+  width: auto;
+}
+
+.attachmentDetails {
+  width: auto;
+  min-height: 150px;
+}
+
+.personalDetails img {
+  float: left;
+  width: 136px;
+  margin-right: 24px;
+}
+
+.personalDetails p {
+  display: block;
+  padding: 12px 0px 5px 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+.attachments p {
+  display: inline-block;
+  width: 43%;
+  margin-right: 10px;
+}
+p > i.glyphicon span {
+  color: #2ee116;
+  font-size: 30px;
+  padding-right: 6px;
+}
+
+.attachmentDetails img {
+  float: left;
+  height: 150px;
+}
+
+.contactDetails p {
+  display: inline-block;
+  padding: 12px 0px 5px 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.previewWrapper {
+  background: rgba(51, 170, 51, 0.1);
+  margin-top: 50px;
+}
+
+.editButton {
+  margin-top: 42px;
+  border: none;
+  background: no-repeat;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 18px;
+  color: #fff;
+}
+table {
+  background: #fff;
+}
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+label.required {
+  color: #d1281c;
+}
+label.custom-file-label.required::after {
+  background: #d1281c !important;
+  color: #fff;
+}
+.btn[disabled] {
+  background: #ccc !important;
+}
+.questionDesc {
+  background: none;
+  cursor: pointer;
+}
+
+.checkGroup.radiobox {
+  height: 35px;
+  text-align: left;
+}
+
+.radiobox > span {
+  padding: 10px;
+  display: inline-block;
+}
+
+.fieldStyle .input-group-addon {
+  /* width: auto; */
+  /* border: none; */
+  /* height: 40px; */
+  white-space: nowrap;
+  vertical-align: middle;
+  /* padding: 9px 0px 0px 0px; */
+  width: 10%;
+  height: 35px;
+  padding: 5px;
+}
+
+.fieldStyle .input-group-addon .glyphicon {
+  top: 0px;
+  left: -3px;
+}
+
+label.btn.current[disabled] {
+  background: #349727 !important;
+  color: #fff !important;
+}
+
+.nextBtn > .material-icons {
+  pointer-events: none;
+}
+
+/* types of users hide and show*/
+.form_preview,
+.form_completed {
+  display: none;
+}
+/**/
+
+.container.loginWrapper {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -118px;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: #f8f8f8ad;
+}
+.loader {
+  left: 50%;
+  top: 45%;
+  z-index: 1000;
+  position: absolute;
+}
+.loader img {
+  width: 60px;
+  /* height: 40px; */
+}
+/* .testimonial-group > .row {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-md-6 {
+  display: inline-block;
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

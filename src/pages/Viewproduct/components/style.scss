@@ -1,0 +1,270 @@
+.SomeProductContent {
+    .viewProduct {
+        padding: 15px;
+        .orderCont {
+            margin: 20px auto;
+            width: 100%;
+            background: #FFF;
+            padding: 30px;
+
+            .orderBlk {
+                width: 80%;
+                margin: 0 auto;
+                padding: 7px;
+                border-radius: 10px;
+                .orderMain {
+                    width: 100%;
+                    border: 1px solid #1d488c;
+                    border-radius: 8px;
+                    height: 60px;
+                    > div {
+                        border-right: 2px solid #ccc;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        width: calc(100% / 4);
+                        vertical-align: middle;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        input {
+                            border: 0;
+                            outline: none;
+                            width: 100%;
+                        }
+                        &:last-child {
+                            border-right:0;
+                        }
+                    }
+                    .orderButBlk {
+                        p.butAction {
+                            margin: auto;
+                            border: 1px solid #1d488c;
+                            padding: 10px;
+                            color: #FFF;
+                            background: #1d488c;
+                            border-radius: 7px;
+                        }
+                    }                
+                }
+            }
+        }
+        .row {
+            width: 100%;
+            overflow: hidden;
+        }
+        p {
+            color: #333;
+            font-size: 16px;
+        }
+        .btn-group {
+            label {
+                border: 1px solid #c5c1c1;
+                box-shadow: 1px 2px 10px #555;
+            }
+        }
+        .searchCont {
+            .searchBar {
+                .searchInput {
+                    input {
+                        width: 600px;
+                        position: relative;
+                        padding: 6px;
+                        border-radius: 10px;
+                        margin: 10px 0;
+                        padding-left: 40px;
+                        outline: none;
+                        &::before {
+                            content: '\1F50D';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .productBlock {
+            min-height: 200px;
+            background: #FFF;
+            padding: 15px;
+            max-height: 285px;
+            overflow: hidden;
+            overflow-y: scroll;
+
+            border-radius: 10px;
+            .logoFunc {
+                margin: 10px 0;
+                .imageLogo {
+                    img {
+                        width: 200px;
+                        height: auto;
+                    }
+                }
+            }   
+        }
+
+        .orderTyp {
+            border: 1px solid #eee;
+            background: #eee;
+            padding: 10px;
+            border-radius: 10px;
+            .btn-default {
+                border: 1px solid #b1afaf;
+            }
+            .btnFunc {
+                margin-left: 10px;
+                .bb-bx {
+                    cursor: pointer;
+                    border: 1px solid #cecdcd;
+                    min-width: 80px;
+                    display: inline-block;
+                    text-align: center;
+                    background: #FFF;
+                    // margin-left: 10px;
+                    input {
+                        max-width: 80px;
+                        outline: none;
+                        height: 22px;
+                        border: 0;
+                        text-align: center;
+                    }
+
+                }
+            }
+        }
+
+        .product_desc {
+            border: 1px solid #FFF;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px;
+            background: #FFF;
+            box-shadow: 4px 4px 5px 5px #eee;
+            .product_blk {
+                margin: 20px 0px 20px;
+            }
+            .product_det  {
+                .det_blk {
+                    div:nth-child(odd) {
+                        background-color: #f9f9f9;
+                    }
+                }
+            }
+            .head_2 {
+                font-weight: 600;
+            }
+            p {
+                flex: 1;
+            }
+            p.ss {
+                margin-left: 20px;
+                flex: 7;
+            }
+            .borderBottom {
+                border-bottom: 1px solid #b7b5b5;
+                padding-bottom: 0px;
+            }
+        }
+        
+        .contClass {
+            background: #FFF;
+            width: 100%;
+
+            padding: 15px 10px;
+            
+            margin-bottom: 10px;
+            border-radius: 6px;
+            background: #FFF;
+            margin-top: 10px;
+            .listProducts {
+                max-height: 400px;
+                overflow: hidden;
+                overflow-y: scroll;
+            }
+            
+            .ratingsBlk {
+                .rate {
+                    // display: flex;
+                    float: left;
+                    height: 46px;
+                    padding: 0;
+                    // .starRating {
+
+                        > input:checked + label:hover, > input:checked + label:hover ~ label, > input:checked ~ label:hover, > input:checked ~ label:hover ~ label, > label:hover ~ input:checked ~ label {
+                            color: #c59b08;
+                        }
+                
+                        &:not(:checked) > input {
+                            position:absolute;
+                            top:-9999px;
+                        }
+                    
+                        &:not(:checked) > label {
+                            float:right;
+                            width:1em;
+                            overflow:hidden;
+                            white-space:nowrap;
+                            cursor:pointer;
+                            font-size:30px;
+                            color:#ccc;
+                        }
+                    
+                        &:not(:checked) > label:before {
+                            content: '★ ';
+                        }
+                    
+                        > input:checked ~ label {
+                            color: #ffc700;    
+                        }
+                    
+                        &:not(:checked) > label:hover, &:not(:checked) > label:hover ~ label {
+                            color: #deb217;
+                        }
+                    // }
+                }
+                
+                
+                
+                /* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+            }
+
+            .logoFunc {
+                .imageLogo {
+                    img {
+                        width: 350px;
+                        height: auto;
+                    }
+                }
+                .titleBlk {
+                    p.title {
+                        color: #1d488c;
+                    }
+                }
+            }
+            .butDetails {
+                .butClass {
+                    .viewBut {
+                        padding: 10px 20px;
+                        border-radius: 25px;
+                        font-size: 16px;
+                        /* font-weight: bold; */
+                        color: #FFF;
+                        display: inline-block;
+                        cursor: pointer;
+                        min-width: 190px;
+
+                        &:hover {
+                            background-color: #25668b;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .d-flex {
+        .flex-1 {
+            flex: 1;
+        }
+    }
+}

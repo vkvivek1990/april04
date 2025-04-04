@@ -1,0 +1,56 @@
+.ProductListContent {
+    .RightBox { 
+        width: 85%;
+        margin: 0 auto;
+        .Contents {
+            span {
+                button {
+                    color: #000;
+                    border-radius: 10px;
+                    font-weight: bold;
+                    font-size: 15px;
+                    padding: 5px 15px;
+                    cursor: pointer;
+                    &.rejectBut {
+
+                    }
+                    &.approveBut {
+
+                    }
+                }
+            }
+        }
+    }
+    .productListView {
+
+        width: 85%;
+        margin: 0 auto;
+        min-height: calc(100vh - 200px);
+        .productListTable {
+            width: 100%;
+            font-size: 16px;
+            .trans {
+                cursor: pointer;
+                color: #1585f5;
+                text-decoration: underline;
+            }
+            .buttonClass {
+                padding: 5px 12px;
+                border: 1px solid #000;
+                border-radius: 10px;
+                font-size: 12px;
+                cursor: pointer;
+                &.approveOpt {
+                    background: green;
+                    color: #FFF;
+                    border: 0;
+                }   
+                &.rejectOpt {
+                    background: red;
+                    color: #FFF;
+                    border: 0;
+                }
+            }
+        }
+    }
+}

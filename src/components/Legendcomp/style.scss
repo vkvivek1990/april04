@@ -1,0 +1,29 @@
+.legend_container {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    ul.legend_holder {
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        li.legend_items {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 5%;
+            span.legend_box {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+            span.legend_name {
+                display: inline-block;
+                color: #fff;
+                font-size: 10px;
+                vertical-align: middle;
+            }
+        }
+    }
+}

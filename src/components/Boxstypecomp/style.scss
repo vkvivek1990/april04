@@ -1,0 +1,43 @@
+.Boxcomp_container{
+    width: 100%;
+    padding: 10px 25px;
+    text-align: left;
+    zoom:80%;
+    ul.Boxcomp_holder {
+        margin: 0px;
+        padding: 0px;
+        li.Boxcomp_items {
+            list-style-type: none;
+            margin-bottom: 5px;
+            .Boxcomp_inner_box {
+                display: inline-block;
+                width: 24%;
+                padding: 4px 10px;
+                margin-left: 1%;
+                border-radius: 8px;
+                vertical-align: top;
+                height: 40px;
+                text-align: center;
+                .Boxcomp_inner_icn {
+                    font-size: 19px;
+                    margin-top: 3px;
+                }
+                span.Boxcomp_inner_txt {
+                    display: block;
+                    font-size: 12px;
+                    font-weight: bold;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+                span.Boxcomp_inner_txt_small {
+                    font-size: 11px;
+                    display: block;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}

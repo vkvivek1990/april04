@@ -1,0 +1,67 @@
+.Drag_n_drop_container{
+    .List_fields_load,.List_drop_fields{
+        border: 1px solid #fff;
+        border-radius: 10px;
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        height: 200px;
+        overflow-y: auto;
+        .drag_list_holder{
+             background: none !important;
+             width: 100%;
+             div{
+                width: 15%;
+                display: inline-block;
+                margin-right: 15px !important;
+                background: #ccc !important;
+                border-radius: 10px;
+                font-size: 12px;
+                padding: 10px !important;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+             }
+             &.No_drop{
+                 text-align: center;
+                 margin-top: 50px;
+                 span.No_selec_flds {
+                    display: inline-block;
+                    font-size: 16px;
+                    color: #ccc;
+                }
+             }
+        }
+    }
+    .List_drop_fields{
+        margin-top: 40px;
+    }
+    .footer_btn_holder_dnd{
+        margin-top: 20px;
+        text-align: right;
+        .dnd_reset_btn,.dnd_submit_btn{
+            width: auto;
+            padding: 8px 8px;
+            color: #fff;
+            background: #349727;
+            font-size: 12px;
+            font-weight: 300;
+            font-family: sans-serif;
+            display: inline-block;
+            border-radius: 5px;
+            box-shadow: 0px 0px 3px 0px #000;
+            cursor: pointer;
+            margin: 0px;
+            margin-top: 20px;
+            .dnd_icn{
+                font-size: 16px;
+                display: inline-block;
+                vertical-align: text-bottom;
+                margin-right: 1px;
+            }
+        }
+        .dnd_reset_btn{
+            float: left;
+        }
+    }
+}

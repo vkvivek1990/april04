@@ -1,0 +1,243 @@
+.dashboardclass{
+    .MuiDialog-paperWidthSm{
+        min-width: 100px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .MuiDialogTitle-root{
+        border-bottom: 3px solid #337ab7;
+        box-shadow: 1px 1px 28px 1px #eae1e1;
+    }
+    .MuiDialogContent-root{
+        background: #5b72f6;
+        background-image: linear-gradient(to top left, #2b5293, #5b72f6);
+        section{
+            background: rgba(198, 210, 221, 0.15);
+            backdrop-filter: blur(1px);
+        }
+    }
+}
+
+.servicecompclass{
+    .MuiDialogTitle-root{
+        border-bottom: 3px solid #337ab7;
+        box-shadow: 1px 1px 28px 1px #eae1e1;
+        h2{
+            font-weight: bold;
+            color: red;
+            .alert-dialog-title-icon{
+                color: red;
+                display: inline-block;
+                font-size: 21px;
+                vertical-align: bottom;
+                margin-right: 7px;
+            }
+      }
+    }
+    .MuiDialogContent-root{
+        .service_remove_alert {
+            color: #000;
+            font-size: 12px;
+            width: 80%;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+    }
+    .MuiDialogActions-root{
+        .MuiButton-textPrimary{
+            background: green;
+            color: #fff;
+        }
+        .MuiButton-textSecondary{
+            background: #777;
+            color: #fff;
+        }
+    }
+}
+
+.searchclass,.editformclass {
+    .MuiDialog-paperWidthSm{
+        min-width: 100px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .MuiDialogTitle-root{
+        border-bottom: 3px solid #337ab7;
+        box-shadow: 1px 1px 28px 1px #eae1e1;
+        h2{
+            font-weight: bold;
+            .alert-dialog-title-icon{
+                color: #007bff;
+                display: inline-block;
+                font-size: 21px;
+                vertical-align: middle;
+                margin-right: 7px;
+            }
+      }
+    }
+}
+
+.loginclass{
+    .MuiDialog-paperWidthSm{
+        min-width: 100px;
+        width: 40%;
+        max-width: 100%;
+    }
+    .MuiDialogTitle-root{
+        border-bottom: 3px solid #337ab7;
+        box-shadow: 1px 1px 28px 1px #eae1e1;
+        h2{
+            font-weight: bold;
+            color: #343a40;
+            .alert-dialog-title-icon{
+                color:#343a40;
+                display: inline-block;
+                font-size: 21px;
+                vertical-align: bottom;
+                margin-right: 7px;
+            }
+      }
+    }
+    .login_role_selc_box {
+        font-weight: 600;
+        margin-top: 8px;
+        text-align: center;
+        .log_role_holder{
+            padding: 0px;
+            margin: 0px;
+            li.role_list {
+                list-style-type: none;
+                width: 20%;
+                display: inline-block;
+                margin-bottom: 15px;
+                .role_box_holder{
+                    display: inline-block;
+                    padding: 15px;
+                    border: 2px solid #007bff;
+                    border-radius: 25%;
+                    color: #007bff;
+                    transition: all .2s ease-in-out;
+                    .icn_holder{
+                        span.material-icons.MuiIcon-root.role_list_icn {
+                            font-size: 24px;
+                        }
+                    }
+                    span.role_txt {
+                        display: block;
+                        font-size: 12px;
+                    }
+                    &.active{
+                        color: #fff !important;
+                        background: #007bff;
+                    }
+                    &:hover{
+                        color:#007bff;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+        span.err_log {
+            color: red;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+    }
+    .MuiDialogActions-root{
+        .MuiButton-textPrimary{
+            background: green;
+            color: #fff;
+        }
+        .MuiButton-textSecondary{
+            background: #777;
+            color: #fff;
+        }
+    }
+}
+
+.editformclass{
+    .MuiDialogContent-root{
+        background: #5b72f6;
+        background-image: linear-gradient(to top left, #2b5293, #5b72f6);
+    }
+    .form-group{
+        height: 340px;
+        overflow-y: auto;
+        .input-group{
+            input.input{
+                height:35px;
+            }
+            .checkGroup {
+                background: #fff;
+                text-align: right;
+                width: 90%;
+                display: inline-block;
+                    height: 35px;
+                    font-size: 12px;
+            }
+            .input-group-addon{
+                width: 10%;
+                height: 35px;
+                padding: 5px;
+                .glyphicon{
+                    top: 1px;
+                    left: -2px;
+                }
+            }
+        }
+    }
+    .footer_submit_holder{
+        text-align: right;
+        .btn.nextBtn {
+            width: auto;
+            padding: 8px 8px;
+            color: #fff;
+            background: #349727;
+            font-size: 12px;
+            font-weight: 300;
+            font-family: sans-serif;
+            display: inline-block;
+            border-radius: 5px;
+            box-shadow: 0px 0px 3px 0px #000;
+            cursor: pointer;
+            margin: 0px;
+            margin-top: 20px;
+            span.material-icons{
+                font-size: 16px;
+                display: inline-block;
+                vertical-align: text-bottom;
+                margin-right: 1px;
+            }
+        }
+        .reset_btn.nextBtn{
+            float: left;
+        }
+        &::before{
+            content: '';
+            display: block;
+            clear: both;
+        }
+    }
+}
+.MuiDialogTitle-root{
+    .close_pop_holder{
+        float: right;
+        cursor: pointer;
+        .close_pop_icn{
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}
+.get_grp_hldr{
+    margin-top: 10px;
+    span.grp_txt_title {
+        font-size: 12px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .grp_name{
+        width: 160px;
+        height: 30px;
+    }
+}

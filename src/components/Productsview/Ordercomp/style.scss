@@ -1,0 +1,47 @@
+.orderCont {
+    margin: 20px auto;
+    width: 100%;
+    background: #FFF;
+    padding: 30px;
+
+    .orderBlk {
+        width: 80%;
+        margin: 0 auto;
+        padding: 7px;
+        border-radius: 10px;
+        .orderMain {
+            width: 100%;
+            border: 1px solid #1d488c;
+            border-radius: 8px;
+            height: 60px;
+            > div {
+                border-right: 2px solid #ccc;
+                margin-left: 5px;
+                margin-right: 5px;
+                width: calc(100% / 4);
+                vertical-align: middle;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                input {
+                    border: 0;
+                    outline: none;
+                    width: 100%;
+                }
+                &:last-child {
+                    border-right:0;
+                }
+            }
+            .orderButBlk {
+                p.butAction {
+                    margin: auto;
+                    border: 1px solid #1d488c;
+                    padding: 10px;
+                    color: #FFF;
+                    background: #1d488c;
+                    border-radius: 7px;
+                }
+            }                
+        }
+    }
+}

@@ -1,0 +1,158 @@
+.piewithchain_container{
+    height: 100%;
+    padding: 15px;
+    zoom: 80%;
+ .piewithchain_circle_holder{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    .piewithchain_inner_cicle_holder{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: relative;
+        background-color: #283b45;
+        box-shadow: 0px 0px 3px 0px #000;
+        display: inline-block;
+        vertical-align: middle;
+        zoom: 85%;
+        .inner_txt {
+            position: absolute;
+            left: 45px;
+            top: 50px;
+            margin: 0 auto;
+            display: inline-block;
+            color: #fff;
+            text-align: center;
+            span.inner_total_cnt {
+                display: block;
+                font-size: 18px;
+            }
+            span.inner_total_txt {
+                display: block;
+                font-size: 12px;
+            }
+        }
+        .piewithchain_innercircle{
+            height: 176px;
+            width: 180px;
+            border-radius: 50%;
+            position: absolute;
+            left: -16px;
+            top: -13px;
+            border-left: none;
+            overflow: hidden;
+            z-index: -1;
+            ul.piewithchain_middle_circle_holder{
+                padding: 0px;
+                margin: 0px;
+               li.piewithchain_middle_circle_catagories{
+                list-style-type: none;
+                width: 50%;
+                margin: 0px;
+                background: #ccc;
+                margin-left: 50%;
+               }
+            }
+        }
+    }
+    .curve_holder {
+        border: 12px solid #e9860b;
+        height: 230px;
+        right: -37px;
+        position: absolute;
+        width: 260px;
+        border-radius: 50%;
+        top: -25%;
+        display: inline-block;
+        border-bottom: 0px;
+        border-top: 0px;
+        border-left: 0px;
+        border-inline-end-width: 5px;
+    }
+    .piewithchain_container_box{
+        width: 75%;
+        display: inline-block;
+        text-align: left;
+        vertical-align: middle;
+        position: relative;
+        .piewithchain_chainlist_holder{
+            margin: 0px;
+            padding: 0px;
+            .chain_list{
+                list-style-type: none;
+                font-size: 12px;
+                display: inline-block;
+                font-weight: 500;
+                text-align: left;
+                width: 100%;
+                margin-bottom: 24px;
+                svg{
+                    position:absolute;
+                    left: -45px;
+                }
+                .list_container{
+                    display: inline-block;
+                    position: relative;
+                    padding-left: 10px;
+                    width: 100%;
+                    z-index:99;
+                    .list_cont_icn_holder{
+                        position: absolute;
+                        left: -3px;
+                        top: 2px;
+                        border-radius: 50%;
+                        width: 26px;
+                        height: 27px;
+                        z-index: 99;
+                        text-align: center;
+                        background: #f3bc1b;
+                        box-shadow: 1px 0px 4px -1px #000;
+                        .list_container_icn{
+                            margin-top: 5px;
+                            font-size: 16px;
+                        }
+                    }
+                    .list_name{
+                        display: inline-block;
+                        padding: 5px;
+                        border-right: 0px;
+                        width: 32%;
+                        vertical-align: middle;
+                        font-size: 12px;
+                        background: #f3bc1b;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        border: 1px solid #ccc;
+                        padding-left: 15px;
+                        white-space: nowrap;
+                        border-top-left-radius: 15px;
+                        border-bottom-left-radius: 15px;
+                    }
+                    ul.list_holder{
+                        margin: 0px;
+                        padding: 0px;
+                        display: inline-block;
+                        width: 65%;
+                        vertical-align: middle;
+                        li.inner_list_items{
+                            list-style-type: none;
+                            font-size: 12px;
+                            display: inline-block;
+                            padding: 6px;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            .chain_list:nth-child(2),.chain_list:nth-child(4){
+                padding-left: 10%;
+            }
+            .chain_list:nth-child(3){
+                padding-left: 15%;
+            }
+        }
+    }
+  }
+}

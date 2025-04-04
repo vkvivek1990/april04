@@ -1,0 +1,38 @@
+.download {
+    margin: 30px 30px 0 0;
+    span.downloadOption {
+        padding: 10px 15px;
+        background: #eee;
+        color: #000;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 5px;       
+    }
+}
+.container-w{
+    table tr th div{
+        width: 200px;
+    }
+}
+.Enquiry_grid_container{
+    .search_grid_holder{
+        .grid_table_holder{
+            .container-w{
+                table tr th:first-child div{
+                    width: 15px;
+                }
+            }
+        }
+    }
+}
+.Enquiry_grid_container.add_prdct_container{
+    .search_grid_holder{
+        .grid_table_holder{
+            .container-w{
+                table tr th:first-child div{
+                    width: 200px;
+                }
+            }
+        }
+    }
+}

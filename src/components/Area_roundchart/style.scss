@@ -1,0 +1,128 @@
+.area_round_holder{
+    padding: 0px 25px;
+    text-align: left;
+    zoom: 85%;
+    .area_round_selectable{
+        display: inline-block;
+        margin-top: 30px;
+        padding: 5px;
+        padding-right: 0px;
+        padding-top: 25px;
+        padding-left: 30px;
+        background: #1b4381;
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(1px);
+        width: 100%;
+        text-align: center;
+        zoom: 90%;
+        .icon_inner_circle {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            position: relative;
+            background-color: transparent;
+            display: inline-block;
+            vertical-align: middle;
+            cursor: pointer;
+            margin-right: 60px;
+            margin-bottom: 70px;
+            .inner_icn_holder {
+                width: 30px;
+                border-radius: 50%;
+                border: 1px solid #ccc;
+                background: #b2dff5;
+                height: 30px;
+                margin: 0 auto;
+                margin-top: 12px;
+                z-index: 9;
+                text-align: center;
+                .cata_icn {
+                    font-size: 18px;
+                    margin-top: 5px;
+                }
+            }
+            .inner_split_circle {
+                height: 85px;
+                width: 85px;
+                border-radius: 50%;
+                position: absolute;
+                left: -12px;
+                top: -13px;
+                overflow: hidden;
+                z-index: -1;
+                ul.inner_split_bar_holder {
+                    margin: 0px;
+                    padding: 0px;
+                    position: relative;
+                    width: 45%;
+                    display: inline-block;
+                    li.split_boxes {
+                        list-style-type: none;
+                        margin: 0px;
+                        background: #ccc;
+                        height: 8px;
+                        margin-bottom: 2px;
+                    }
+                }
+                ul.inner_split_bar_holder_right {
+                    margin: 0px;
+                    padding: 0px;
+                    position: relative;
+                    width: 51%;
+                    display: inline-block;
+                    margin-left: 4%;
+                    li.split_boxes {
+                        list-style-type: none;
+                        margin: 0px;
+                        background: #ccc;
+                        height: 8px;
+                        margin-bottom: 2px;
+                    }
+                }
+                .cut_circle{
+                    height: 73px;
+                    width: 70px;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 7px;
+                    top: 6px;
+                    overflow: hidden;
+                    z-index: 99;
+                    background: #1b4381;
+                }
+            }
+            .grp_nme_holder {
+                position: absolute;
+                top: 120%;
+                width: 120px;
+                left: -32px;
+                font-size: 12px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                color: #fff;
+                text-align: center;
+                span.grp_value_cnt,span.grp_txt_cnt {
+                    display: block;
+                }
+                span.grp_value_cnt{
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .areachart_area_container{
+        height: 180px;
+        margin-top: 28px;
+        width: 100%;
+        padding-bottom: 30px;
+        .recharts-wrapper{
+            .recharts-layer{
+                path{
+                    fill-opacity: 1;
+                }
+            }
+        }
+    }
+}

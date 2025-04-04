@@ -1,0 +1,321 @@
+$medium : 767px;
+$small : 300px;
+
+.Halfcutchart_container {
+    margin: 10px 0px;
+    padding: 15px;
+    height: 100%;
+    zoom: 80%;
+    padding: 10px;
+    .Halfcutchart_left_side,.Halfcutchart_right_side{
+        width: 50%;
+        display: inline-block;
+        padding: 30px;
+        position: relative;
+        text-align: left;
+        @media screen and (max-width:$medium){
+            width: 100%;
+        }
+        .Halfcutchart_leftbar_holder,.Halfcutchart_rightbar_holder{
+            padding: 0px;
+            margin: 0px;
+            width: 60%;
+            display: inline-block;
+            .Halfcutchart_list_bar{
+                list-style-type: none;
+                position: relative;
+                margin: 10px;
+                border-radius: 16px;
+                display:block;
+                width: 100%;
+                span.label_holder {
+                    position: absolute;
+                    display: inline-block;
+                    left: -90px;
+                    color: #fff;
+                    font-size: 11px;
+                    width: 30px;
+                    top: 0px;
+                    white-space: break-spaces;
+                }
+                .Halfcutchart_icn_holder{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: -18px;
+                    text-align: center;
+                    top: 0px;
+                    background: #cfebfa;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    box-shadow: 4px 0px 1px -1px #2a76ba;
+                    .Halfcutchart_list_icn{
+                        font-size: 14px;
+                        color: #000;
+                        margin-top: 4px;
+                    }
+                }
+                .Halfcutchart_list_firsthalf{
+                    width:50%;
+                    display: inline-block;
+                    height: 18px;
+                    border: 1px solid #ccc;
+                    border-right: 0px;
+                    text-align: center;
+                    border-bottom-left-radius: 10px;
+                    border-top-left-radius: 10px;
+                    font-size: 13px;
+                    vertical-align: middle;
+                    font-weight: 500;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    transition: width 1s;
+                    transition-timing-function: ease;
+                }
+                .Halfcutchart_list_secondhalf{
+                    width:50%;
+                    display: inline-block;
+                    height: 18px;
+                    vertical-align: middle;
+                    border: 1px solid #ccc;
+                    border-left: 0px;
+                    border-bottom-right-radius: 10px;
+                    border-top-right-radius: 10px;
+                    font-size: 13px;
+                    font-weight: 500;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-align: center;
+                    transition: width 1s;
+                    transition-timing-function: ease;
+                }
+                .Halfcutchart_list_secondhalf.brder_rad{
+                    border-bottom-left-radius: 10px;
+                    border-top-left-radius: 10px;
+                }
+                .Halfcutchart_list_firsthalf.brder_rad{
+                    border-bottom-right-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+            }
+        }
+        .Halfcutchart_left_arc_holder {
+            position: absolute;
+            right: -15px;
+            top: 0px;
+            height: 100%;
+            font-size: 0px;
+            padding: 0px 320px 0px 0px;
+            overflow: hidden;
+            z-index: -1;
+            background: #bccfdf00;
+            @media screen and (max-width:$medium){
+                right:40px;
+            }
+            .arc_front_side {
+                position: absolute;
+                height: 98%;
+                border-left: 0px;
+                border-radius: 100%;
+                z-index: 99;
+                background: #5A75CF;
+                border-top: 0px;
+                border-bottom: 0px;
+                left: -11px;
+                top: 5px;
+                display: inline-block;
+                padding: 0px 10px 10px 259px;
+                overflow: hidden;
+            }
+            .arc_back_side {
+                position: absolute;
+                height: 98%;
+                border-left: 0px;
+                border-radius: 100%;
+                border-top: 0px;
+                border-bottom: 0px;
+                right: 45px;
+                display: inline-block;
+                padding: 0px 294px 0px 0px;
+                overflow: hidden;
+                top: 5px;
+                .data_tp_to_btm{
+                    width: 50%;
+                    height: 100%;
+                    display: inline-block;
+                    position: absolute;
+                    right: 0px;
+                    background: grey;
+                }
+                .data_btm_to_tp{
+                    width: 50%;
+                    height: 100%;
+                    display: inline-block;
+                    position: absolute;
+                    right: 0px;
+                    background: #eee;
+                    top: 30%;
+                    transition: top 5s;
+                    transition-timing-function: ease;
+                }
+                .data_btm_to_tp.topblwquarter{
+                    top:90%
+                }
+                .data_btm_to_tp.topblwhalf{
+                    top:70%
+                }
+                .data_btm_to_tp.tophalf{
+                    top:50%
+                }
+                .data_btm_to_tp.topabvhalf{
+                    top:40%
+                }
+                .data_btm_to_tp.topquarter{
+                    top:20%
+                }
+                .data_btm_to_tp.topabquart{
+                    top:5%
+                }
+                .data_btm_to_tp.topfull{
+                    top:0%
+                }
+            }
+         }
+         .Halfcutchart_right_arc_holder{
+            position: absolute;
+            left: -36px;
+            top: 0px;
+            height: 100%;
+            font-size: 0px;
+            padding: 0px 350px 0px 0px;
+            overflow: hidden;
+            z-index: -1;
+            @media screen and (max-width:$medium){
+                left:10px;
+            }
+            .arc_front_side {
+                position: absolute;
+                height: 99%;
+                border-right: 0px;
+                border-radius: 100%;
+                z-index: 99;
+                background: #5572C5;
+                border-top: 0px;
+                border-bottom: 0px;
+                top: 0px;
+                left: 42px;
+                display: inline-block;
+                padding: 0px 10px 10px 281px;
+                overflow: hidden;
+            }
+            .arc_back_side {
+                position: absolute;
+                height: 99%;
+                border-right: 0px;
+                border-radius: 100%;
+                border-top: 0px;
+                border-bottom: 0px;
+                left: 26px;
+                display: inline-block;
+                padding: 0px 305px 0px 0px;
+                overflow: hidden;
+                .data_tp_to_btm {
+                    width: 50%;
+                    height: 100%;
+                    display: inline-block;
+                    position: absolute;
+                    left: 0px;
+                    background: grey;
+                }
+                .data_btm_to_tp {
+                    width: 50%;
+                    height: 100%;
+                    display: inline-block;
+                    position: absolute;
+                    left: 0px;
+                    background: #eee;
+                    top: 30%;
+                    transition: top 5s;
+                    transition-timing-function: ease;
+                }
+                .data_btm_to_tp.topblwquarter{
+                    top:90%
+                }
+                .data_btm_to_tp.topblwhalf{
+                    top:70%
+                }
+                .data_btm_to_tp.tophalf{
+                    top:50%
+                }
+                .data_btm_to_tp.topabvhalf{
+                    top:40%
+                }
+                .data_btm_to_tp.topquarter{
+                    top:20%
+                }
+                .data_btm_to_tp.topabquart{
+                    top:5%
+                }
+                .data_btm_to_tp.topfull{
+                    top:0%
+                }
+            }
+         }
+    }
+    .Halfcutchart_right_side{
+        text-align: right;
+        .Halfcutchart_rightbar_holder{
+            margin-right: 20%;
+            .Halfcutchart_list_bar{
+                span.label_holder {
+                    left: 116%;
+                    text-align: left;
+                    top: 2px;
+                }
+                .Halfcutchart_icn_holder{
+                    left: 97%;
+                    box-shadow: -4px 0px 1px -1px #2a76ba;
+                }
+            }
+        }
+    }
+}
+
+.Indicatorcomp_container {
+    background: rgba(198, 210, 221, 0.15);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    zoom: 85%;
+    ul.Indicator_holder {
+        padding: 0px;
+        margin: 0px;
+        li.Indicator_items {
+            list-style-type: none;
+            display: inline-block;
+            width: 15%;
+            text-align: center;
+            span.Indicator_icons {
+                display: block;
+                color: #000;
+                text-align: center;
+                background: #97caf6;
+                border-radius: 50%;
+                width: 27px;
+                margin: 0 auto;
+                height: 26px;
+                .Indic_icon{
+                    font-size: 17px;
+                    margin-top: 4px;
+                }
+            }
+            span.Indicator_label {
+                font-size: 12px;
+                color: #fff;
+            }
+        }
+    }
+}

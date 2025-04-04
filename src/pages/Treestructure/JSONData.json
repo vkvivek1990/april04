@@ -1,0 +1,545 @@
+{
+    "reportFields": [
+        {
+            "screenNm": "REPORTS",
+            "fieldId": "convtdEvtTp_1",
+            "fieldLabel": "Converted Event Type _1",
+            "fieldNm": "convtdEvtTp_1",
+            "fieldCmp": "input",
+            "fieldDataType": "text",
+            "fieldType": "text",
+            "fieldTooltip": "Please fill the field_1",
+            "applicableFor": "FIELDS",
+            "tblAliasNm": "FTD",
+            "queryColumn": "FTD.CONVTDEVTTP_1",
+            "queryTblNm": "FAST_TXNDATA FTD",
+            "cashOdsTblAliasNm": "FTD",
+            "cashOdsQueryTblNm": "FTD.CONVTDEVTTP_1",
+            "fieldRequired": true,
+            "indexField": true,
+            "dispOrder": 0,
+            "fieldGroup": [
+                "Psyment Info",
+                "All"
+            ], 
+            "paymentCategory": [
+                "IC",
+                "ID"
+            ],
+            "operators": [
+                {
+                    "optrid": "equal",
+                    "optrlbl": "EQUAL",
+                    "optr": "="
+                },
+                {
+                    "optrid": "not equal",
+                    "optrlbl": "NOT EQUAL",
+                    "optr": "<>"
+                },
+                {
+                    "optrid": "in",
+                    "optrlbl": "IN",
+                    "optr": "IN"
+                },
+                {
+                    "optrid": "not in",
+                    "optrlbl": "NOT IN",
+                    "optr": "NOT IN"
+                },
+                {
+                    "optrid": "like",
+                    "optrlbl": "LIKE",
+                    "optr": "LIKE"
+                },
+                {
+                    "optrid": "not like",
+                    "optrlbl": "NOT LIKE",
+                    "optr": "NOT LIKE"
+                }
+            ],
+            "concatenation": [
+                "AND"
+            ],
+            "dispOrderList": [
+                "1"
+            ],
+            "fieldValues": null,
+            "fieldValidatekey": {
+                "fieldValidatetype": "characters",
+                "fieldLen": "10"
+            },
+            "count": true,
+            "variableParam": true,
+            "sum": true,
+            "multiSelect": false,
+            "where": true,
+            "fixedParam": true,
+            "select": true
+        },
+        {
+            "screenNm": "REPORTS",
+            "fieldId": "convtdEvtTp_2",
+            "fieldLabel": "Converted Event Type _2",
+            "fieldNm": "convtdEvtTp_2",
+            "fieldCmp": "input",
+            "fieldDataType": "text",
+            "fieldType": "text",
+            "fieldTooltip": "Please fill the field_2",
+            "applicableFor": "FIELDS",
+            "tblAliasNm": "FTD",
+            "queryColumn": "FTD.CONVTDEVTTP_2",
+            "queryTblNm": "FAST_TXNDATA FTD",
+            "cashOdsTblAliasNm": "FTD",
+            "cashOdsQueryTblNm": "FTD.CONVTDEVTTP_2",
+            "fieldRequired": true,
+            "indexField": true,
+            "dispOrder": 0,
+            "fieldGroup": [
+                "Psyment Info",
+                "All"
+            ], 
+            "paymentCategory": [
+                "IC",
+                "ID"
+            ],
+            "operators": [
+                {
+                    "optrid": "equal",
+                    "optrlbl": "EQUAL",
+                    "optr": "="
+                },
+                {
+                    "optrid": "not equal",
+                    "optrlbl": "NOT EQUAL",
+                    "optr": "<>"
+                },
+                {
+                    "optrid": "in",
+                    "optrlbl": "IN",
+                    "optr": "IN"
+                },
+                {
+                    "optrid": "not in",
+                    "optrlbl": "NOT IN",
+                    "optr": "NOT IN"
+                },
+                {
+                    "optrid": "like",
+                    "optrlbl": "LIKE",
+                    "optr": "LIKE"
+                },
+                {
+                    "optrid": "not like",
+                    "optrlbl": "NOT LIKE",
+                    "optr": "NOT LIKE"
+                }
+            ],
+            "concatenation": [
+                "AND"
+            ],
+            "dispOrderList": [
+                "1"
+            ],
+            "fieldValues": null,
+            "fieldValidatekey": {
+                "fieldValidatetype": "characters",
+                "fieldLen": "10"
+            },
+            "count": true,
+            "variableParam": true,
+            "sum": true,
+            "multiSelect": false,
+            "where": true,
+            "fixedParam": true,
+            "select": true
+        },
+        {
+            "screenNm": "REPORTS",
+            "fieldId": "convtdEvtTp_3",
+            "fieldLabel": "Converted Event Type _3",
+            "fieldNm": "convtdEvtTp_3",
+            "fieldCmp": "input",
+            "fieldDataType": "text",
+            "fieldType": "text",
+            "fieldTooltip": "Please fill the field_3",
+            "applicableFor": "FIELDS",
+            "tblAliasNm": "FTD",
+            "queryColumn": "FTD.CONVTDEVTTP_3",
+            "queryTblNm": "FAST_TXNDATA FTD",
+            "cashOdsTblAliasNm": "FTD",
+            "cashOdsQueryTblNm": "FTD.CONVTDEVTTP_3",
+            "fieldRequired": true,
+            "indexField": true,
+            "dispOrder": 0,
+            "fieldGroup": [
+                "Psyment Info",
+                "All"
+            ], 
+            "paymentCategory": [
+                "IC",
+                "ID"
+            ],
+            "operators": [
+                {
+                    "optrid": "equal",
+                    "optrlbl": "EQUAL",
+                    "optr": "="
+                },
+                {
+                    "optrid": "not equal",
+                    "optrlbl": "NOT EQUAL",
+                    "optr": "<>"
+                },
+                {
+                    "optrid": "in",
+                    "optrlbl": "IN",
+                    "optr": "IN"
+                },
+                {
+                    "optrid": "not in",
+                    "optrlbl": "NOT IN",
+                    "optr": "NOT IN"
+                },
+                {
+                    "optrid": "like",
+                    "optrlbl": "LIKE",
+                    "optr": "LIKE"
+                },
+                {
+                    "optrid": "not like",
+                    "optrlbl": "NOT LIKE",
+                    "optr": "NOT LIKE"
+                }
+            ],
+            "concatenation": [
+                "AND"
+            ],
+            "dispOrderList": [
+                "1"
+            ],
+            "fieldValues": null,
+            "fieldValidatekey": {
+                "fieldValidatetype": "characters",
+                "fieldLen": "10"
+            },
+            "count": true,
+            "variableParam": true,
+            "sum": true,
+            "multiSelect": false,
+            "where": true,
+            "fixedParam": true,
+            "select": true
+        },
+        {
+            "screenNm": "REPORTS",
+            "fieldId": "convtdEvtTp_3",
+            "fieldLabel": "Converted Event Type _4",
+            "fieldNm": "convtdEvtTp_4",
+            "fieldCmp": "input",
+            "fieldDataType": "text",
+            "fieldType": "text",
+            "fieldTooltip": "Please fill the field_4",
+            "applicableFor": "FIELDS",
+            "tblAliasNm": "FTD",
+            "queryColumn": "FTD.CONVTDEVTTP_4",
+            "queryTblNm": "FAST_TXNDATA FTD",
+            "cashOdsTblAliasNm": "FTD",
+            "cashOdsQueryTblNm": "FTD.CONVTDEVTTP_4",
+            "fieldRequired": true,
+            "indexField": true,
+            "dispOrder": 0,
+            "fieldGroup": [
+                "Psyment Info",
+                "All"
+            ], 
+            "paymentCategory": [
+                "IC",
+                "ID"
+            ],
+            "operators": [
+                {
+                    "optrid": "equal",
+                    "optrlbl": "EQUAL",
+                    "optr": "="
+                },
+                {
+                    "optrid": "not equal",
+                    "optrlbl": "NOT EQUAL",
+                    "optr": "<>"
+                },
+                {
+                    "optrid": "in",
+                    "optrlbl": "IN",
+                    "optr": "IN"
+                },
+                {
+                    "optrid": "not in",
+                    "optrlbl": "NOT IN",
+                    "optr": "NOT IN"
+                },
+                {
+                    "optrid": "like",
+                    "optrlbl": "LIKE",
+                    "optr": "LIKE"
+                },
+                {
+                    "optrid": "not like",
+                    "optrlbl": "NOT LIKE",
+                    "optr": "NOT LIKE"
+                }
+            ],
+            "concatenation": [
+                "AND"
+            ],
+            "dispOrderList": [
+                "1"
+            ],
+            "fieldValues": null,
+            "fieldValidatekey": {
+                "fieldValidatetype": "characters",
+                "fieldLen": "10"
+            },
+            "count": true,
+            "variableParam": true,
+            "sum": true,
+            "multiSelect": false,
+            "where": true,
+            "fixedParam": true,
+            "select": true
+        },
+        {
+            "screenNm": "REPORTS",
+            "fieldId": "subPmtTp_1",
+            "fieldLabel": "Sub Product Payment Type _1",
+            "fieldNm": "subPmtTp_1",
+            "fieldCmp": "dropdown",
+            "fieldDataType": "Singleselect",
+            "fieldType": "select",
+            "fieldTooltip": "Please fill the field_1",
+            "applicableFor": "FIELDS",
+            "tblAliasNm": "FTD",
+            "queryColumn": "FTD.SUBPMTTP_1",
+            "queryTblNm": "FAST_TXNDATA FTD",
+            "cashOdsTblAliasNm": "FTD",
+            "cashOdsQueryTblNm": "FTD.SUBPMTTP_1",
+            "fieldRequired": true,
+            "indexField": true,
+            "dispOrder": 0,
+            "fieldGroup": [
+                "Psyment Info",
+                "All"
+            ], 
+            "paymentCategory": [
+                "IC",
+                "ID"
+            ],
+            "operators": [
+                {
+                    "optrid": "equal",
+                    "optrlbl": "EQUAL",
+                    "optr": "="
+                },
+                {
+                    "optrid": "in",
+                    "optrlbl": "IN",
+                    "optr": "IN"
+                }
+            ],
+            "concatenation": [
+                "AND"
+            ],
+            "dispOrderList": [
+                "7"
+            ],
+            "fieldValues": [
+				{
+					"label": "IC",
+					"value": "IC"
+				},
+				{
+					"label": "OC",
+					"value": "OC"
+				},
+				{
+					"label": "ID",
+					"value": "ID"
+				},
+				{
+					"label": "IR",
+					"value": "IR"
+				}
+			],
+            "fieldValidatekey": {
+                "fieldValidatetype": "text",
+                "fieldLen": "2"
+            },
+            "count": true,
+            "variableParam": true,
+            "sum": true,
+            "multiSelect": false,
+            "where": true,
+            "fixedParam": true,
+            "select": true
+        },
+        {
+            "screenNm": "REPORTS",
+            "fieldId": "subPmtTp_2",
+            "fieldLabel": "Sub Product Payment Type _2",
+            "fieldNm": "subPmtTp_1",
+            "fieldCmp": "dropdown",
+            "fieldDataType": "Singleselect",
+            "fieldType": "select",
+            "fieldTooltip": "Please fill the field_2",
+            "applicableFor": "FIELDS",
+            "tblAliasNm": "FTD",
+            "queryColumn": "FTD.SUBPMTTP_2",
+            "queryTblNm": "FAST_TXNDATA FTD",
+            "cashOdsTblAliasNm": "FTD",
+            "cashOdsQueryTblNm": "FTD.SUBPMTTP_2",
+            "fieldRequired": true,
+            "indexField": true,
+            "dispOrder": 0,
+            "fieldGroup": [
+                "Psyment Info",
+                "All"
+            ], 
+            "paymentCategory": [
+                "IC",
+                "ID"
+            ],
+            "operators": [
+                {
+                    "optrid": "equal",
+                    "optrlbl": "EQUAL",
+                    "optr": "="
+                },
+                {
+                    "optrid": "in",
+                    "optrlbl": "IN",
+                    "optr": "IN"
+                }
+            ],
+            "concatenation": [
+                "AND"
+            ],
+            "dispOrderList": [
+                "7"
+            ],
+            "fieldValues": [
+				{
+					"label": "IC",
+					"value": "IC"
+				},
+				{
+					"label": "OC",
+					"value": "OC"
+				},
+				{
+					"label": "ID",
+					"value": "ID"
+				},
+				{
+					"label": "IR",
+					"value": "IR"
+				}
+			],
+            "fieldValidatekey": {
+                "fieldValidatetype": "text",
+                "fieldLen": "2"
+            },
+            "count": true,
+            "variableParam": true,
+            "sum": true,
+            "multiSelect": false,
+            "where": true,
+            "fixedParam": true,
+            "select": true
+        },
+        {
+            "screenNm": "REPORTS",
+            "fieldId": "subPmtTp_3",
+            "fieldLabel": "Sub Product Payment Type _3",
+            "fieldNm": "subPmtTp_3",
+            "fieldCmp": "dropdown",
+            "fieldDataType": "Singleselect",
+            "fieldType": "select",
+            "fieldTooltip": "Please fill the field_3",
+            "applicableFor": "FIELDS",
+            "tblAliasNm": "FTD",
+            "queryColumn": "FTD.SUBPMTTP_3",
+            "queryTblNm": "FAST_TXNDATA FTD",
+            "cashOdsTblAliasNm": "FTD",
+            "cashOdsQueryTblNm": "FTD.SUBPMTTP_3",
+            "fieldRequired": true,
+            "indexField": true,
+            "dispOrder": 0,
+            "fieldGroup": [
+                "Psyment Info",
+                "All"
+            ], 
+            "paymentCategory": [
+                "IC",
+                "ID"
+            ],
+            "operators": [
+                {
+                    "optrid": "equal",
+                    "optrlbl": "EQUAL",
+                    "optr": "="
+                },
+                {
+                    "optrid": "in",
+                    "optrlbl": "IN",
+                    "optr": "IN"
+                }
+            ],
+            "concatenation": [
+                "AND"
+            ],
+            "dispOrderList": [
+                "7"
+            ],
+            "fieldValues": [
+				{
+					"label": "IC",
+					"value": "IC"
+				},
+				{
+					"label": "OC",
+					"value": "OC"
+				},
+				{
+					"label": "ID",
+					"value": "ID"
+				},
+				{
+					"label": "IR",
+					"value": "IR"
+				}
+			],
+            "fieldValidatekey": {
+                "fieldValidatetype": "text",
+                "fieldLen": "2"
+            },
+            "count": true,
+            "variableParam": true,
+            "sum": true,
+            "multiSelect": false,
+            "where": true,
+            "fixedParam": true,
+            "select": true
+        },
+        
+		
+		
+        
+		
+		
+		
+		
+		
+		
+
+    ]
+}

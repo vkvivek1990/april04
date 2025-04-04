@@ -1,0 +1,44 @@
+.Status_view_container{
+    background-color: #5b72f6;
+    background-image: linear-gradient(to top left, #2b5293, #5b72f6);
+    height: auto;
+    padding: 12px 30px 6px 15px;
+    .trip_engage_container{
+        padding: 20px;
+        .trip_category_header {
+            padding: 5px;
+            background: #007bff;
+            color: #fff;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            .trip_header_screen {
+                text-align: left;
+                margin-top: 5px;
+                padding-left: 5px;
+                span.search_header_icon{
+                    font-size: 20px;
+                    vertical-align: middle;
+                }
+                span.search_box_title {
+                    font-size: 16px;
+                    padding-left: 5px;
+                    vertical-align: middle;
+                    font-weight: bold;
+                }
+            }
+            .select_box_holder {
+                text-align: right;
+                .trip_select_txt {
+                    font-size: 12px;
+                    color: #fff;
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+                .trip_select_box {
+                    display: inline-block;
+                    width: 30%;
+                }
+            }
+        }
+    }
+}

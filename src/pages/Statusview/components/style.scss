@@ -1,0 +1,68 @@
+.statusViewContainer {
+    background-color: #5b72f6;
+    background-image: linear-gradient(to top left, #2b5293, #5b72f6);
+    height: auto;
+    padding: 72px 30px 6px 15px;
+    .statusBar {
+        .statusHeaderBar {
+            margin-bottom: 10px;
+            .statusHead {
+                display: inline-block;
+                position: relative;
+                p.statusBlk {
+                    padding: 5px 10px;
+                    display: inline-block;
+                    cursor: pointer;
+                    margin: 0px;
+                    color:#fff;
+                    font-size: 14px;
+                }
+                &:after{
+                        content: "";
+                        display: inline-block;
+                        border: 1px solid #f86c1b;
+                        position: absolute;
+                        left: 8%;
+                        bottom: 2px;
+                        width: 38px;
+                        background: #f86c1b;
+                        transition: left .5s;
+                        transition-timing-function: ease;
+                }
+                &.pending{
+                    p.statusBlk.active{
+                      color:#f86c1b;
+                    }
+                    &:after{
+                    left:8%;
+                    }
+                }
+                &.active{
+                    p.statusBlk.active{
+                        color:#f86c1b;
+                    }
+                    &:after{
+                    left:42%;
+                    }
+                }
+                &.history{
+                    p.statusBlk.active{
+                        color:#f86c1b;
+                      }
+                    &:after{
+                    left:72%;
+                    }
+                }
+            }
+        }
+        .statusFieldHolder{
+            margin-bottom: 20px;
+            &:after{
+                content: "";
+                display: block;
+                clear: both;
+            }
+        }
+    }
+
+}

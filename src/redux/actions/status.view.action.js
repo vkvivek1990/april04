@@ -1,0 +1,1 @@
+export const actionStatusViewProduct = "action/UPDATE_STATUS_VIEW_DATA";

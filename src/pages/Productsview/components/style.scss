@@ -1,0 +1,202 @@
+.SomeProductContent {
+    .productView {
+        .orderCont {
+            margin: 20px auto;
+            width: 100%;
+            background: #FFF;
+            padding: 30px;
+
+            .orderBlk {
+                width: 80%;
+                margin: 0 auto;
+                padding: 7px;
+                border-radius: 10px;
+                .orderMain {
+                    width: 100%;
+                    border: 1px solid #1d488c;
+                    border-radius: 8px;
+                    height: 60px;
+                    > div {
+                        border-right: 2px solid #ccc;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        width: calc(100% / 4);
+                        vertical-align: middle;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        input {
+                            border: 0;
+                            outline: none;
+                            width: 100%;
+                        }
+                        &:last-child {
+                            border-right:0;
+                        }
+                    }
+                    .orderButBlk {
+                        p.butAction {
+                            margin: auto;
+                            border: 1px solid #1d488c;
+                            padding: 10px;
+                            color: #FFF;
+                            background: #1d488c;
+                            border-radius: 7px;
+                        }
+                    }                
+                }
+            }
+        }
+        .row {            
+            width: 100%;
+            overflow: hidden;
+            max-height: 700px;
+            overflow-y: auto;
+        }
+        p {
+            color: #000;
+            font-size: 16px;
+        }
+
+        .searchCont {
+            .searchBar {
+                display: inline-block;
+                //padding-top: 25px;
+                .searchInputText {
+                    
+                    display: inline;
+                    //margin-top: 25px;
+                    margin-right: 30px;
+                    cursor: pointer;
+                    margin-bottom: 0;
+                    text-decoration: underline;
+                    text-align: right;
+                    a {
+                        color: #FFF;
+                    }
+                }
+                .searchInput {
+                    input {
+                        width: 600px;
+                        position: relative;
+                        padding: 6px;
+                        border-radius: 10px;
+                        margin: 10px 0;
+                        padding-left: 40px;
+                        outline: none;
+                        &::before {
+                            content: '\1F50D';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .myBlock {
+
+            .priceBlock {
+                .allPrices {
+                    .priceList {
+                        cursor: pointer;
+                        &.isActive {
+                            color: #1d488c;
+                        }
+                    }
+                }
+            }
+
+            padding: 15px 10px;
+            min-height: 500px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            background: #FFF;
+            margin-top: 10px;
+            .listProducts {
+                max-height: 400px;
+                overflow: hidden;
+                overflow-y: auto;
+            }
+
+            .ratingsBlk {
+                .rate {
+                    // display: flex;
+                    float: left;
+                    height: 46px;
+                    padding: 0;
+                    // .starRating {
+
+                        input:checked + label:hover, input:checked + label:hover ~ label, input:checked ~ label:hover, input:checked ~ label:hover ~ label, label:hover ~ input:checked ~ label {
+                            color: #c59b08;
+                        }
+                
+                        &:not(:checked) > input {
+                            position:absolute;
+                            top:-9999px;
+                        }
+                    
+                        &:not(:checked) > label {
+                            width:1em;
+                            overflow:hidden;
+                            white-space:nowrap;
+                            cursor:pointer;
+                            font-size:30px;
+                            color:#ccc;
+                        }
+                    
+                        &:not(:checked) > label:before {
+                            content: '★ ';
+                        }
+                    
+                        input:checked + label {
+                            color: #ffc700;
+                        }
+                    
+                        // &:not(:checked) > label:hover, &:not(:checked) > label:hover ~ label {
+                        //     color: #deb217;
+                        // }
+                    // }
+                }
+                
+                
+                
+                /* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+            }
+
+            .logoFunc {
+                .imageLogo {
+                    img {
+                        width: 150px;
+                        height: auto;
+                    }
+                }
+                .titleBlk {
+                    p.title {
+                        color: #1d488c;
+                    }
+                }
+            }
+            .butDetails {
+                .butClass {
+                    .viewBut {
+                        padding: 10px 20px;
+                        border-radius: 25px;
+                        font-size: 16px;
+                        /* font-weight: bold; */
+                        color: #FFF;
+                        cursor: pointer;
+                        &:hover {
+                            background-color: #25668b;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .d-flex {
+        .flex-1 {
+            flex: 1;
+        }
+    }
+}
